@@ -13,7 +13,7 @@ a:hover {
 .btn-secondary,
 .btn-secondary:hover,
 .btn-secondary:focus {
-  color: #333;
+  color: #879276;
   text-shadow: none; /* Prevent inheritance from `body` */
   background-color: #fff;
   border: .05rem solid #fff;
@@ -118,6 +118,7 @@ body {
 .cover .btn-lg {
   padding: .75rem 1.25rem;
   font-weight: bold;
+  margin-top: 1em;
 }
 
 
