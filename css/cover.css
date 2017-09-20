@@ -121,6 +121,11 @@ body {
   margin-top: 1em;
 }
 
+.cover .btn-lg span {
+  color: #3d4e44;
+  margin-left: 1.25rem;
+}
+
 
 /*
  * Footer
@@ -128,6 +133,15 @@ body {
 
 .mastfoot {
   color: rgba(255,255,255,.5);
+}
+
+#connie {
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 45px;
+  transition: all 5s linear;
 }
 
 
@@ -157,6 +171,7 @@ body {
   }
 }
 
+
 @media (min-width: 62em) {
   .masthead,
   .mastfoot,
@@ -164,3 +179,4 @@ body {
     width: 42rem;
   }
 }
+
