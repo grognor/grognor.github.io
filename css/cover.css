@@ -141,6 +141,9 @@ body {
   top: 0;
   left: 0;
   width: 45px;
+}
+
+#connie.animated {
   transition: all 5s linear;
 }
 
