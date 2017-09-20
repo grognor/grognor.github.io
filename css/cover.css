@@ -183,3 +183,12 @@ body {
   }
 }
 
+.plainformat .container {
+  text-align: left;
+  width: 42rem;
+}
+
+.plainformat .site-wrapper-inner {
+  display: block;
+  margin-top: 9rem;
+}
