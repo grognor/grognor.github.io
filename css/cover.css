@@ -29,6 +29,7 @@ body {
   height: 100%;
   background: url("../img/banner-dark.jpg");
   background-size: cover;
+  background-attachment: fixed;
 }
 body {
   color: #fff;
@@ -66,6 +67,7 @@ body {
 
 .masthead {
   margin-bottom: 2rem;
+  z-index: 99;
 }
 
 .masthead-brand {
