@@ -67,4 +67,16 @@ $(document).ready(function() {
   }
   countMemories();
 
+  $(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+  
+    if (scroll >= 100) {
+      $(".nav").addClass("scrolling");
+      $(".masthead-brand").fadeOut();
+    } else {
+      $(".nav").removeClass("scrolling");
+      $(".masthead-brand").fadeIn();
+    }
+  });
+
 });

@@ -159,6 +159,21 @@ body {
   width: 100% !important;
 }
 
+.nav {
+  padding: 0 15px;
+  border-radius: 26px;
+  -moz-border-radius: 26px;
+  -webkit-border-radius: 26px;
+  margin-right: -15px;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  transition: .5s;
+}
+
+.nav.scrolling {
+  background: rgba(56, 72, 69, 0.55);
+}
+
 
 /*
  * Affix and center
