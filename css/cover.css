@@ -147,7 +147,14 @@ body {
 
 #connie.animated {
   transition: all 5s linear;
+  -moz-transition: all 5s linear;
+  -webkit-transition: all 5s linear;
 }
+
+#remember-button {
+  opacity: 0;
+}
+
 
 
 /*
