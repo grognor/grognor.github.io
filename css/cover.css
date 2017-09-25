@@ -155,8 +155,14 @@ body {
   opacity: 0;
 }
 
-.EmbeddedTweet, .twitter-tweet-rendered {
+.EmbeddedTweet, .twitter-tweet-rendered, .EmbeddedTweet-tweet {
   width: 100% !important;
+  text-shadow: none;
+  max-width: none !important;
+}
+
+.embedPastebin {
+  text-shadow: none;
 }
 
 .nav {
