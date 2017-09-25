@@ -155,6 +155,9 @@ body {
   opacity: 0;
 }
 
+.EmbeddedTweet, .twitter-tweet-rendered {
+  width: 100% !important;
+}
 
 
 /*
